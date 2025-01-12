@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Share Page</title>
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/popup.css">
+</head>
+<body class="main bg-light">
+
+  <div class="p-3">
+    <div class="container-fluid bg-white rounded-4 p-4 shadow-sm">
+      
+      <div class="d-flex mb-3">
+        <img src="/icons/icon48.png" alt="share icon" width="18" height="18" class="me-2 opacity-50 va-i">
+        <h1 class="h6 text-secondary">Share Page</h1>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-12">
+          <div class="input-group input-group-sm mb-3">
+            <input type="text" id="currentPageUrl" class="form-control bg-light" readonly>
+            <button class="btn btn-light border" type="button" id="button-copy" name="button-copy">
+              <img src="/icons/copy.svg" alt="copy" class="me-1 va-i" width="18" height="18">
+              <span class="fs-7">Copy</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Toast message -->
+        <div class="position-fixed bottom-0 end-0 p-1" style="z-index: 11">
+          <div id="copyToast" class="toast align-items-center text-bg-dark border-0 opacity-75 w-100" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+              <div class="toast-body">
+                Copied!
+              </div>
+              <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+        <!-- End of Toast message -->
+
+        <div class="col-6 d-grid">
+          <button id="shareFacebook" class="border-0 p-3 py-1 bg-facebook rounded-3 text-start hover-opacity-75">
+            <img src="/icons/media/facebook.svg" alt="facebook" class="me-1 va-i" width="18" height="18">
+            <span>Facebook</span>
+          </button>
+        </div>
+
+        <div class="col-6 d-grid">
+          <button id="shareX" class="border-0 p-3 py-1 bg-x rounded-3 text-start hover-opacity-75">
+            <img src="/icons/media/twitter-x.svg" alt="twitter" class="me-1 va-i" width="18" height="18">
+            <span>Twitter (X)</span>
+          </button>
+        </div>
+
+        <div class="col-6 d-grid">
+          <button id="shareWhatsApp" class="border-0 p-3 py-1 bg-whatsapp rounded-3 text-start hover-opacity-75">
+            <img src="/icons/media/whatsapp.svg" alt="whatsapp" class="me-1 va-i" width="18" height="18">
+            <span>WhatsApp</span>
+          </button>
+        </div>
+
+        <div class="col-6 d-grid">
+          <button id="shareTelegram" class="border-0 p-3 py-1 bg-telegram rounded-3 text-start hover-opacity-75">
+            <img src="/icons/media/telegram.svg" alt="telegram" class="me-1 va-i" width="18" height="18">
+            <span>Telegram</span>
+          </button>
+        </div>
+
+        <div class="col-6 d-grid">
+          <button id="shareLinkedIn" class="border-0 p-3 py-1 bg-linkedin rounded-3 text-start hover-opacity-75">
+            <img src="/icons/media/linkedin.svg" alt="linkedin" class="me-1 va-i" width="18" height="18">
+            <span>LinkedIn</span>
+          </button>
+        </div>
+
+        <div class="col-6 d-grid">
+          <button id="shareEmail" class="border-0 p-3 py-1 text-bg-secondary rounded-3 text-start hover-opacity-75">
+            <img src="/icons/media/envelope-fill.svg" alt="email" class="me-1 va-i" width="18" height="18">
+            <span>Email</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid p-2 border-top">
+    <small class="text-secondary fs-7 ms-3">&copy; <a class="link-secondary" href="https://sa2n.com">SA2N.com</a></small>
+
+    <a href="https://github.com/sa2ncom/Share-Extension" class="link-secondary float-end me-3 fs-7" target="_blank">
+      <img src="/icons/github.svg" alt="email" class="me-1 va-i opacity-75" width="16" height="16">
+      <small>Github</small>
+    </a>
+  </div>
+
+  <script src="scripts/bootstrap.bundle.min.js"></script>
+  <script src="scripts/popup.js"></script>
+</body>
+</html>

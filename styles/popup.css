@@ -1,0 +1,63 @@
+body {
+    -webkit-user-select: none; /* Chrome, Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* IE10+ */
+    user-select: none;         /* Standard syntax */
+  }
+
+.main{ width: 450px !important;}
+
+a {text-decoration: none;}
+
+.w-10px{ width: 10px;}
+.h-10px{ height: 10px;}
+
+.va-i{vertical-align: -0.2em !important;}
+.va-1{vertical-align: -.125em !important;}
+.va-2{vertical-align: -.225em !important;}
+.va-3{vertical-align: -.325em !important;}
+.va-4{vertical-align: -.425em !important;}
+.va-5{vertical-align: -.525em !important;}
+.va-0{vertical-align: 0em !important;}
+.va-1p{vertical-align: .125em !important;}
+.va-2p{vertical-align: .225em !important;}
+.va-3p{vertical-align: .325em !important;}
+.va-4p{vertical-align: .425em !important;}
+.va-5p{vertical-align: .525em !important;}
+
+/* Facebook */
+.bg-facebook {
+    background-color: #0165E1;
+    color: white; /* Optional: text color for better readability */
+}
+
+/* WhatsApp */
+.bg-whatsapp {
+    background-color: #25D366;
+    color: white; /* Optional: text color for better readability */
+}
+
+/* Telegram */
+.bg-telegram {
+    background-color: #27A7E7;
+    color: white; /* Optional: text color for better readability */
+}
+
+/* LinkedIn */
+.bg-linkedin {
+    background-color: #0E76A8;
+    color: white; /* Optional: text color for better readability */
+}
+
+/* X (Twitter) */
+.bg-x {
+    background-color: #000000;
+    color: white; /* Optional: text color for better readability */
+}
+
+.hover-opacity-75{
+    transition: 0.3s;
+}
+.hover-opacity-75:hover {
+    opacity: 0.75;
+}
