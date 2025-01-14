@@ -5,7 +5,7 @@ body {
     user-select: none;         /* Standard syntax */
   }
 
-.main{ width: 450px !important;}
+.main{ min-width: 450px !important;}
 
 a {text-decoration: none;}
 

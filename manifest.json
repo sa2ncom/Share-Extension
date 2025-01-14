@@ -3,7 +3,7 @@
   "name": "Share",
   "version": "1.0",
   "description": "Share the current page to social media and email.",
-  "permissions": ["activeTab", "storage"],
+  "permissions": ["activeTab", "storage", "contextMenus"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
